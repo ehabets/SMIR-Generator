@@ -1,5 +1,4 @@
-# SMIR-Generator
-Spherical Microphone array Impulse Response generator (SMIRgen)
+# Spherical Microphone array Impulse Response generator (SMIRgen)
 
 This repository contains an algorithm to generate impulse responses between a source and a spherical microphone array in a reverberant enclosure.
 
