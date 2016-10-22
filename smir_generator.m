@@ -1,7 +1,7 @@
 function [ h, H, beta_hat ] = smir_generator(c, procFs, sphLocation, s, L, beta, sphType, sphRadius, mic, N_harm, nsample, K, order, varargin)
 
-% function [ h, H, beta_hat ] = new_smir_generator_with_combined_loop(c, procFs, sphLocation, s, L,
-%                               beta, sphType, sphRadius, mic, N_harm, nsample, K, order, refl_coeff_ang_dep,
+% function [ h, H, beta_hat ] = smir_generator(c, procFs, sphLocation, s, L, beta, sphType,
+%                               sphRadius, mic, N_harm, nsample, K, order, refl_coeff_ang_dep,
 %                               HP, src_type, src_ang)
 %
 % Inputs:
