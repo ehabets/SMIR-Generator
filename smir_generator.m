@@ -73,7 +73,7 @@ function [ h, H, beta_hat ] = smir_generator(c, procFs, sphLocation, s, L, beta,
 %                   Added angle dependent reflection coefficient (S. Braun)
 %    2.1.20150713   ixed default RIR length computation
 % 
-% Copyright (C) 2015 International Audio Laboratories 
+% Copyright (C) 2015 International Audio Laboratories Erlangen
 %
 % Permission is hereby granted, free of charge, to any person obtaining a copy
 % of this software and associated documentation files (the "Software"), to deal
@@ -285,3 +285,4 @@ if HP==1
     [b,a] = butter(4,50/(procFs/2),'high'); % Cut-off freq is 50 Hz
     h = filter(b,a,h,[],2);
 end
+
