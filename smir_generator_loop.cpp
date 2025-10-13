@@ -71,7 +71,7 @@ Inputs:
                    Added angle dependent reflection coefficient (S. Braun)
     2.1.20150713   Fixed default RIR length computation
 
- Copyright (C) 2015 International Audio Laboratories 
+ Copyright (C) 2015 International Audio Laboratories Erlangen
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -407,4 +407,5 @@ double src_directivity(double* vect1, double* vect2, char src_type)
     {
         return 1;
     }
+
 }
